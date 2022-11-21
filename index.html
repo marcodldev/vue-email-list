@@ -15,7 +15,9 @@
 
         <button @click="generaMail()">Test</button>
 
-        <h1>{{message}}</h1>
+        <ul>
+            <li v-for="(element,index) in email_array" v-if="email_array.length == 10">le email sono :{{element}}</li>
+        </ul>
     </div>
 
 

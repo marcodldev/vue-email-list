@@ -1,7 +1,6 @@
 var app = new Vue({
     el: '#root',
     data: {
-        message: ' ',
         email_array: [],
     },
     methods: {
